@@ -44,7 +44,7 @@ app.get('/movie', function handleGetMovie(req, res) {
 
     //average
     if(req.query.avg_vote) {
-      let a = req.query.average;
+      let a = req.query.avg_vote;
       let aN= Number(a)
       
       response = response.filter(
